@@ -12,3 +12,10 @@ adb shell 'echo "persist.sys.usb.config=mtp,adb" >> /system/build.prop'
 
 
 ro.adb.secure=0
+
+
+persist.sys.usb.config=diag,adb
+sys.usb.config=diag,adb
+ro.adb.secure=0
+ro.secure=0
+ro.debuggable=1
