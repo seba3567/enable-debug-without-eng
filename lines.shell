@@ -19,3 +19,8 @@ sys.usb.config=diag,adb
 ro.adb.secure=0
 ro.secure=0
 ro.debuggable=1
+
+fastboot getvar all
+getprop ro.carrier
+
+
